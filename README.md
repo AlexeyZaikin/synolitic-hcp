@@ -4,7 +4,7 @@ Code accompanying the manuscript
 
 > A. Zaikin, D. Vlasenko, T. Tyukina, J. G. Oganezova, O. Blyuss, D. Zakharov.
 > *Supervised pairwise graphs recover cognitive-state information from
-> individually uninformative brain regions.* Submitted to NeuroImage.
+> individually uninformative brain regions.*
 
 The repository contains the complete analysis: the cross-validated pipeline,
 the preprocessing verification, the global-signal-regression sensitivity
