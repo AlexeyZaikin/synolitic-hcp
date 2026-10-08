@@ -1,0 +1,1602 @@
+{
+  "top_k": 10,
+  "threshold": 0.6,
+  "tasks": [
+    {
+      "task": "WM",
+      "display": "Working Memory",
+      "n_stable_weak_regions": 87,
+      "top_regions": [
+        {
+          "region": "L_PGi",
+          "system": "Posterior parietal",
+          "hemisphere": "L",
+          "importance": 1.2155308425426483,
+          "signed_coefficient": 1.2155308425426483,
+          "node_effect": 0.13608579151332378,
+          "individual_accuracy": 0.5717021524906158
+        },
+        {
+          "region": "L_LIPv",
+          "system": "Posterior parietal",
+          "hemisphere": "L",
+          "importance": 1.1338363289833069,
+          "signed_coefficient": 1.1338363289833069,
+          "node_effect": 0.14365478232502937,
+          "individual_accuracy": 0.5642903000116348
+        },
+        {
+          "region": "R_VIP",
+          "system": "Posterior parietal",
+          "hemisphere": "R",
+          "importance": 0.8185054361820221,
+          "signed_coefficient": 0.8185054361820221,
+          "node_effect": 0.1976773850619793,
+          "individual_accuracy": 0.5867629647254944
+        },
+        {
+          "region": "L_STSdp",
+          "system": "Auditory and superior temporal",
+          "hemisphere": "L",
+          "importance": 0.817714273929596,
+          "signed_coefficient": 0.817714273929596,
+          "node_effect": 0.11115558445453644,
+          "individual_accuracy": 0.5407714992761612
+        },
+        {
+          "region": "L_PGs",
+          "system": "Posterior parietal",
+          "hemisphere": "L",
+          "importance": 0.7230088487267494,
+          "signed_coefficient": 0.7230088487267494,
+          "node_effect": 0.14264950901269913,
+          "individual_accuracy": 0.5758943855762482
+        },
+        {
+          "region": "R_PSL",
+          "system": "Auditory and superior temporal",
+          "hemisphere": "R",
+          "importance": 0.7182759940624237,
+          "signed_coefficient": 0.7182759940624237,
+          "node_effect": 0.09841692820191383,
+          "individual_accuracy": 0.5712937712669373
+        },
+        {
+          "region": "putamen_right",
+          "system": "Subcortical and cerebellum",
+          "hemisphere": "R",
+          "importance": 0.6787747144699097,
+          "signed_coefficient": 0.6787747144699097,
+          "node_effect": 0.19689609110355377,
+          "individual_accuracy": 0.5955906361341476
+        },
+        {
+          "region": "L_PHA1",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "L",
+          "importance": 0.6700586602091789,
+          "signed_coefficient": 0.6700586602091789,
+          "node_effect": 0.10782629810273647,
+          "individual_accuracy": 0.5325303077697754
+        },
+        {
+          "region": "thalamus_right",
+          "system": "Subcortical and cerebellum",
+          "hemisphere": "R",
+          "importance": 0.6412287503480911,
+          "signed_coefficient": -0.6412287503480911,
+          "node_effect": 0.05890527367591858,
+          "individual_accuracy": 0.4939758628606796
+        },
+        {
+          "region": "R_PHA1",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "R",
+          "importance": 0.6361057460308075,
+          "signed_coefficient": 0.6361057460308075,
+          "node_effect": 0.15622331947088242,
+          "individual_accuracy": 0.5733153522014618
+        }
+      ],
+      "systems": {
+        "Visual": {
+          "n_stable_weak_regions": 3,
+          "share_of_regions": 0.034482758620689655,
+          "share_of_importance": 0.03451538409665966,
+          "enrichment": 1.0009461388031302
+        },
+        "Somatomotor and premotor": {
+          "n_stable_weak_regions": 4,
+          "share_of_regions": 0.04597701149425287,
+          "share_of_importance": 0.03603935386309604,
+          "enrichment": 0.7838559465223389
+        },
+        "Auditory and superior temporal": {
+          "n_stable_weak_regions": 10,
+          "share_of_regions": 0.11494252873563218,
+          "share_of_importance": 0.11429078995061388,
+          "enrichment": 0.9943298725703408
+        },
+        "Lateral and medial temporal": {
+          "n_stable_weak_regions": 16,
+          "share_of_regions": 0.1839080459770115,
+          "share_of_importance": 0.18288061317826892,
+          "enrichment": 0.9944133341568373
+        },
+        "Insular and opercular": {
+          "n_stable_weak_regions": 6,
+          "share_of_regions": 0.06896551724137931,
+          "share_of_importance": 0.058087004072938264,
+          "enrichment": 0.8422615590576048
+        },
+        "Posterior parietal": {
+          "n_stable_weak_regions": 12,
+          "share_of_regions": 0.13793103448275862,
+          "share_of_importance": 0.21439106465596638,
+          "enrichment": 1.5543352187557564
+        },
+        "Cingulate and medial parietal": {
+          "n_stable_weak_regions": 14,
+          "share_of_regions": 0.16091954022988506,
+          "share_of_importance": 0.12091804414617671,
+          "enrichment": 0.7514192743369553
+        },
+        "Prefrontal": {
+          "n_stable_weak_regions": 14,
+          "share_of_regions": 0.16091954022988506,
+          "share_of_importance": 0.14267265403941118,
+          "enrichment": 0.8866086358163409
+        },
+        "Subcortical and cerebellum": {
+          "n_stable_weak_regions": 8,
+          "share_of_regions": 0.09195402298850575,
+          "share_of_importance": 0.09620509199686895,
+          "enrichment": 1.0462303754659499
+        }
+      },
+      "spearman_importance_vs_individual_accuracy": 0.00723554713129693,
+      "spearman_p": 0.9469690806733883,
+      "top_edges": [
+        {
+          "region_i": "L_LIPv",
+          "region_j": "R_POS1",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.6380338221788406
+        },
+        {
+          "region_i": "L_V4",
+          "region_j": "R_POS1",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.5292214006185532
+        },
+        {
+          "region_i": "L_V8",
+          "region_j": "R_POS1",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.5106182843446732
+        },
+        {
+          "region_i": "L_VIP",
+          "region_j": "R_POS1",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.43180766701698303
+        },
+        {
+          "region_i": "L_LIPv",
+          "region_j": "L_PHA2",
+          "system_i": "Posterior parietal",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.4167095795273781
+        },
+        {
+          "region_i": "L_LIPv",
+          "region_j": "R_PHA1",
+          "system_i": "Posterior parietal",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.4138149544596672
+        },
+        {
+          "region_i": "L_LIPv",
+          "region_j": "R_PHA2",
+          "system_i": "Posterior parietal",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.3920109048485756
+        },
+        {
+          "region_i": "L_LIPv",
+          "region_j": "L_PHA1",
+          "system_i": "Posterior parietal",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.36466848105192184
+        },
+        {
+          "region_i": "R_POS1",
+          "region_j": "R_VIP",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.3638515844941139
+        },
+        {
+          "region_i": "L_LIPv",
+          "region_j": "L_A5",
+          "system_i": "Posterior parietal",
+          "system_j": "Auditory and superior temporal",
+          "edge_effect_abs": 0.3582519665360451
+        }
+      ],
+      "edge_effect_abs_median": 0.08654756285250187
+    },
+    {
+      "task": "GAMBLING",
+      "display": "Gambling",
+      "n_stable_weak_regions": 135,
+      "top_regions": [
+        {
+          "region": "L_6d",
+          "system": "Somatomotor and premotor",
+          "hemisphere": "L",
+          "importance": 0.8908476829528809,
+          "signed_coefficient": 0.8908476829528809,
+          "node_effect": 0.11166243068873882,
+          "individual_accuracy": 0.5676551163196564
+        },
+        {
+          "region": "R_9m",
+          "system": "Prefrontal",
+          "hemisphere": "R",
+          "importance": 0.6621959209442139,
+          "signed_coefficient": -0.6621959209442139,
+          "node_effect": 0.0844248253852129,
+          "individual_accuracy": 0.5387702435255051
+        },
+        {
+          "region": "L_1",
+          "system": "Somatomotor and premotor",
+          "hemisphere": "L",
+          "importance": 0.5481579005718231,
+          "signed_coefficient": -0.5481579005718231,
+          "node_effect": 0.0603190902620554,
+          "individual_accuracy": 0.4807227700948715
+        },
+        {
+          "region": "cerebellum_right",
+          "system": "Subcortical and cerebellum",
+          "hemisphere": "R",
+          "importance": 0.5297377333045006,
+          "signed_coefficient": 0.5297377333045006,
+          "node_effect": 0.14190003275871277,
+          "individual_accuracy": 0.5811182111501694
+        },
+        {
+          "region": "L_PHT",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "L",
+          "importance": 0.5057730339467525,
+          "signed_coefficient": 0.5057730339467525,
+          "node_effect": 0.14981179684400558,
+          "individual_accuracy": 0.5829114019870758
+        },
+        {
+          "region": "L_p32pr",
+          "system": "Cingulate and medial parietal",
+          "hemisphere": "L",
+          "importance": 0.4813804179430008,
+          "signed_coefficient": 0.4813804179430008,
+          "node_effect": 0.13671352714300156,
+          "individual_accuracy": 0.579884335398674
+        },
+        {
+          "region": "L_TE1m",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "L",
+          "importance": 0.48043591529130936,
+          "signed_coefficient": 0.48043591529130936,
+          "node_effect": 0.1418066956102848,
+          "individual_accuracy": 0.5720999091863632
+        },
+        {
+          "region": "R_VMV1",
+          "system": "Visual",
+          "hemisphere": "R",
+          "importance": 0.45087648183107376,
+          "signed_coefficient": 0.45087648183107376,
+          "node_effect": 0.10059714503586292,
+          "individual_accuracy": 0.5636651664972305
+        },
+        {
+          "region": "R_LO3",
+          "system": "Visual",
+          "hemisphere": "R",
+          "importance": 0.4175351820886135,
+          "signed_coefficient": 0.4175351820886135,
+          "node_effect": 0.16601818427443504,
+          "individual_accuracy": 0.5835607498884201
+        },
+        {
+          "region": "R_PCV",
+          "system": "Posterior parietal",
+          "hemisphere": "R",
+          "importance": 0.41073406487703323,
+          "signed_coefficient": 0.41073406487703323,
+          "node_effect": 0.14039039984345436,
+          "individual_accuracy": 0.5813417285680771
+        }
+      ],
+      "systems": {
+        "Visual": {
+          "n_stable_weak_regions": 8,
+          "share_of_regions": 0.05925925925925926,
+          "share_of_importance": 0.06291579171434844,
+          "enrichment": 1.06170398517963
+        },
+        "Somatomotor and premotor": {
+          "n_stable_weak_regions": 9,
+          "share_of_regions": 0.06666666666666667,
+          "share_of_importance": 0.10848730662116396,
+          "enrichment": 1.6273095993174593
+        },
+        "Auditory and superior temporal": {
+          "n_stable_weak_regions": 12,
+          "share_of_regions": 0.08888888888888889,
+          "share_of_importance": 0.07222330515494382,
+          "enrichment": 0.812512182993118
+        },
+        "Lateral and medial temporal": {
+          "n_stable_weak_regions": 24,
+          "share_of_regions": 0.17777777777777778,
+          "share_of_importance": 0.15701019527745264,
+          "enrichment": 0.883182348435671
+        },
+        "Insular and opercular": {
+          "n_stable_weak_regions": 12,
+          "share_of_regions": 0.08888888888888889,
+          "share_of_importance": 0.08727467182482498,
+          "enrichment": 0.981840058029281
+        },
+        "Posterior parietal": {
+          "n_stable_weak_regions": 13,
+          "share_of_regions": 0.0962962962962963,
+          "share_of_importance": 0.08977568324760778,
+          "enrichment": 0.9322859414174653
+        },
+        "Cingulate and medial parietal": {
+          "n_stable_weak_regions": 14,
+          "share_of_regions": 0.1037037037037037,
+          "share_of_importance": 0.09464955769547134,
+          "enrichment": 0.9126921634920451
+        },
+        "Prefrontal": {
+          "n_stable_weak_regions": 29,
+          "share_of_regions": 0.21481481481481482,
+          "share_of_importance": 0.22476060827001415,
+          "enrichment": 1.046299383325928
+        },
+        "Subcortical and cerebellum": {
+          "n_stable_weak_regions": 14,
+          "share_of_regions": 0.1037037037037037,
+          "share_of_importance": 0.10290288019417289,
+          "enrichment": 0.9922777733009529
+        }
+      },
+      "spearman_importance_vs_individual_accuracy": 0.10275095112671936,
+      "spearman_p": 0.23566248307304247,
+      "top_edges": [
+        {
+          "region_i": "L_a24pr",
+          "region_j": "L_p32pr",
+          "system_i": "Cingulate and medial parietal",
+          "system_j": "Cingulate and medial parietal",
+          "edge_effect_abs": 0.3038759008049965
+        },
+        {
+          "region_i": "L_POS2",
+          "region_j": "R_POS2",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.2925102934241295
+        },
+        {
+          "region_i": "L_PHT",
+          "region_j": "R_PHT",
+          "system_i": "Lateral and medial temporal",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.2848888635635376
+        },
+        {
+          "region_i": "L_V6A",
+          "region_j": "R_LO3",
+          "system_i": "Visual",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.27466975897550583
+        },
+        {
+          "region_i": "R_PCV",
+          "region_j": "R_7Am",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.25334396213293076
+        },
+        {
+          "region_i": "L_p32pr",
+          "region_j": "R_7Am",
+          "system_i": "Cingulate and medial parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.24673334509134293
+        },
+        {
+          "region_i": "L_44",
+          "region_j": "L_STSdp",
+          "system_i": "Prefrontal",
+          "system_j": "Auditory and superior temporal",
+          "edge_effect_abs": 0.24664942920207977
+        },
+        {
+          "region_i": "L_44",
+          "region_j": "L_47l",
+          "system_i": "Prefrontal",
+          "system_j": "Prefrontal",
+          "edge_effect_abs": 0.24043800309300423
+        },
+        {
+          "region_i": "R_7Am",
+          "region_j": "R_LO3",
+          "system_i": "Posterior parietal",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.2336372509598732
+        },
+        {
+          "region_i": "R_7Am",
+          "region_j": "R_PHT",
+          "system_i": "Posterior parietal",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.23101214691996574
+        }
+      ],
+      "edge_effect_abs_median": 0.08773955423384905
+    },
+    {
+      "task": "MOTOR",
+      "display": "Motor Activity",
+      "n_stable_weak_regions": 282,
+      "top_regions": [
+        {
+          "region": "L_7AL",
+          "system": "Posterior parietal",
+          "hemisphere": "L",
+          "importance": 1.3605035245418549,
+          "signed_coefficient": 1.3605035245418549,
+          "node_effect": 0.07325186487287283,
+          "individual_accuracy": 0.5524084866046906
+        },
+        {
+          "region": "R_V2",
+          "system": "Visual",
+          "hemisphere": "R",
+          "importance": 1.3170628249645233,
+          "signed_coefficient": 1.3170628249645233,
+          "node_effect": 0.10793019644916058,
+          "individual_accuracy": 0.5877481251955032
+        },
+        {
+          "region": "L_OP2-3",
+          "system": "Somatomotor and premotor",
+          "hemisphere": "L",
+          "importance": 1.3002759367227554,
+          "signed_coefficient": 1.3002759367227554,
+          "node_effect": 0.05073860380798578,
+          "individual_accuracy": 0.5096473321318626
+        },
+        {
+          "region": "L_FOP4",
+          "system": "Insular and opercular",
+          "hemisphere": "L",
+          "importance": 1.2699750363826752,
+          "signed_coefficient": 1.2699750363826752,
+          "node_effect": 0.15414567664265633,
+          "individual_accuracy": 0.5935622453689575
+        },
+        {
+          "region": "thalamus_left",
+          "system": "Subcortical and cerebellum",
+          "hemisphere": "L",
+          "importance": 1.0975063890218735,
+          "signed_coefficient": 1.0975063890218735,
+          "node_effect": 0.06485334411263466,
+          "individual_accuracy": 0.5479975789785385
+        },
+        {
+          "region": "R_POS2",
+          "system": "Posterior parietal",
+          "hemisphere": "R",
+          "importance": 1.0877861976623535,
+          "signed_coefficient": 1.0877861976623535,
+          "node_effect": 0.09362593106925488,
+          "individual_accuracy": 0.579342395067215
+        },
+        {
+          "region": "L_TPOJ2",
+          "system": "Auditory and superior temporal",
+          "hemisphere": "L",
+          "importance": 0.9728393107652664,
+          "signed_coefficient": 0.9728393107652664,
+          "node_effect": 0.13225004263222218,
+          "individual_accuracy": 0.5881294012069702
+        },
+        {
+          "region": "R_PIT",
+          "system": "Visual",
+          "hemisphere": "R",
+          "importance": 0.9165915846824646,
+          "signed_coefficient": 0.9165915846824646,
+          "node_effect": 0.0641311202198267,
+          "individual_accuracy": 0.5481756329536438
+        },
+        {
+          "region": "R_VMV1",
+          "system": "Visual",
+          "hemisphere": "R",
+          "importance": 0.8872732222080231,
+          "signed_coefficient": -0.8872732222080231,
+          "node_effect": 0.035921613685786724,
+          "individual_accuracy": 0.5154459625482559
+        },
+        {
+          "region": "R_V4t",
+          "system": "Visual",
+          "hemisphere": "R",
+          "importance": 0.8796138167381287,
+          "signed_coefficient": 0.8796138167381287,
+          "node_effect": 0.07007828075438738,
+          "individual_accuracy": 0.5493756234645844
+        }
+      ],
+      "systems": {
+        "Visual": {
+          "n_stable_weak_regions": 37,
+          "share_of_regions": 0.13120567375886524,
+          "share_of_importance": 0.16024851195211995,
+          "enrichment": 1.2213535235269684
+        },
+        "Somatomotor and premotor": {
+          "n_stable_weak_regions": 10,
+          "share_of_regions": 0.03546099290780142,
+          "share_of_importance": 0.04992684222864786,
+          "enrichment": 1.4079369508478694
+        },
+        "Auditory and superior temporal": {
+          "n_stable_weak_regions": 21,
+          "share_of_regions": 0.07446808510638298,
+          "share_of_importance": 0.08647536394760763,
+          "enrichment": 1.1612406015821597
+        },
+        "Lateral and medial temporal": {
+          "n_stable_weak_regions": 34,
+          "share_of_regions": 0.12056737588652482,
+          "share_of_importance": 0.09547959175537665,
+          "enrichment": 0.7919189669122417
+        },
+        "Insular and opercular": {
+          "n_stable_weak_regions": 22,
+          "share_of_regions": 0.07801418439716312,
+          "share_of_importance": 0.07845022463110803,
+          "enrichment": 1.0055892429987483
+        },
+        "Posterior parietal": {
+          "n_stable_weak_regions": 36,
+          "share_of_regions": 0.1276595744680851,
+          "share_of_importance": 0.14206169289304535,
+          "enrichment": 1.1128165943288553
+        },
+        "Cingulate and medial parietal": {
+          "n_stable_weak_regions": 36,
+          "share_of_regions": 0.1276595744680851,
+          "share_of_importance": 0.10750763447453593,
+          "enrichment": 0.8421431367171982
+        },
+        "Prefrontal": {
+          "n_stable_weak_regions": 71,
+          "share_of_regions": 0.25177304964539005,
+          "share_of_importance": 0.22352637838636688,
+          "enrichment": 0.8878089958444432
+        },
+        "Subcortical and cerebellum": {
+          "n_stable_weak_regions": 15,
+          "share_of_regions": 0.05319148936170213,
+          "share_of_importance": 0.056323759731191705,
+          "enrichment": 1.058886682946404
+        }
+      },
+      "spearman_importance_vs_individual_accuracy": 0.10203738728337929,
+      "spearman_p": 0.08720022981579097,
+      "top_edges": [
+        {
+          "region_i": "L_5L",
+          "region_j": "R_V2",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.36849572509527206
+        },
+        {
+          "region_i": "L_7Am",
+          "region_j": "L_6r",
+          "system_i": "Posterior parietal",
+          "system_j": "Somatomotor and premotor",
+          "edge_effect_abs": 0.31490080058574677
+        },
+        {
+          "region_i": "L_5L",
+          "region_j": "R_V4",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.3028709143400192
+        },
+        {
+          "region_i": "L_5m",
+          "region_j": "R_V2",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.3006672039628029
+        },
+        {
+          "region_i": "L_7Am",
+          "region_j": "L_FOP4",
+          "system_i": "Posterior parietal",
+          "system_j": "Insular and opercular",
+          "edge_effect_abs": 0.30024657398462296
+        },
+        {
+          "region_i": "L_6r",
+          "region_j": "L_V6A",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.2908935025334358
+        },
+        {
+          "region_i": "L_FOP4",
+          "region_j": "L_V6A",
+          "system_i": "Insular and opercular",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.29022030532360077
+        },
+        {
+          "region_i": "L_6r",
+          "region_j": "R_7PL",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.2856791168451309
+        },
+        {
+          "region_i": "L_8BL",
+          "region_j": "L_FOP4",
+          "system_i": "Prefrontal",
+          "system_j": "Insular and opercular",
+          "edge_effect_abs": 0.27367955446243286
+        },
+        {
+          "region_i": "L_6r",
+          "region_j": "R_MIP",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.271128386259079
+        }
+      ],
+      "edge_effect_abs_median": 0.046756865456700325
+    },
+    {
+      "task": "LANGUAGE",
+      "display": "Language Processing",
+      "n_stable_weak_regions": 35,
+      "top_regions": [
+        {
+          "region": "L_24dd",
+          "system": "Somatomotor and premotor",
+          "hemisphere": "L",
+          "importance": 0.5574341639876366,
+          "signed_coefficient": 0.5574341639876366,
+          "node_effect": 0.14238342083990574,
+          "individual_accuracy": 0.560431957244873
+        },
+        {
+          "region": "L_V4",
+          "system": "Visual",
+          "hemisphere": "L",
+          "importance": 0.5389730278402567,
+          "signed_coefficient": -0.5389730278402567,
+          "node_effect": 0.1486817542463541,
+          "individual_accuracy": 0.5831407606601715
+        },
+        {
+          "region": "R_V3",
+          "system": "Visual",
+          "hemisphere": "R",
+          "importance": 0.5379240624606609,
+          "signed_coefficient": 0.5379240624606609,
+          "node_effect": 0.13802921399474144,
+          "individual_accuracy": 0.575508251786232
+        },
+        {
+          "region": "L_V3A",
+          "system": "Visual",
+          "hemisphere": "L",
+          "importance": 0.4316286041866988,
+          "signed_coefficient": -0.426332424627617,
+          "node_effect": 0.13890865817666054,
+          "individual_accuracy": 0.5809285193681717
+        },
+        {
+          "region": "R_OFC",
+          "system": "Prefrontal",
+          "hemisphere": "R",
+          "importance": 0.43114083632826805,
+          "signed_coefficient": -0.43114083632826805,
+          "node_effect": 0.06303820479661226,
+          "individual_accuracy": 0.476514108479023
+        },
+        {
+          "region": "L_EC",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "L",
+          "importance": 0.4121031016111374,
+          "signed_coefficient": 0.4121031016111374,
+          "node_effect": 0.14380855858325958,
+          "individual_accuracy": 0.5684863775968552
+        },
+        {
+          "region": "R_PIT",
+          "system": "Visual",
+          "hemisphere": "R",
+          "importance": 0.38414268800988793,
+          "signed_coefficient": -0.278039684984833,
+          "node_effect": 0.10914047062397003,
+          "individual_accuracy": 0.5423769652843475
+        },
+        {
+          "region": "R_PCV",
+          "system": "Posterior parietal",
+          "hemisphere": "R",
+          "importance": 0.3535212129354477,
+          "signed_coefficient": 0.3535212129354477,
+          "node_effect": 0.16437744721770287,
+          "individual_accuracy": 0.5805317610502243
+        },
+        {
+          "region": "R_13l",
+          "system": "Prefrontal",
+          "hemisphere": "R",
+          "importance": 0.324974600225687,
+          "signed_coefficient": 0.324974600225687,
+          "node_effect": 0.14661332964897156,
+          "individual_accuracy": 0.5799462795257568
+        },
+        {
+          "region": "L_PGp",
+          "system": "Posterior parietal",
+          "hemisphere": "L",
+          "importance": 0.3162948787212372,
+          "signed_coefficient": 0.10508996248245239,
+          "node_effect": 0.08554817549884319,
+          "individual_accuracy": 0.51382115483284
+        }
+      ],
+      "systems": {
+        "Visual": {
+          "n_stable_weak_regions": 9,
+          "share_of_regions": 0.2571428571428571,
+          "share_of_importance": 0.3222879393121687,
+          "enrichment": 1.2533419862139896
+        },
+        "Somatomotor and premotor": {
+          "n_stable_weak_regions": 3,
+          "share_of_regions": 0.08571428571428572,
+          "share_of_importance": 0.10761629819571797,
+          "enrichment": 1.255523478950043
+        },
+        "Auditory and superior temporal": {
+          "n_stable_weak_regions": 1,
+          "share_of_regions": 0.02857142857142857,
+          "share_of_importance": 0.033213123995185015,
+          "enrichment": 1.1624593398314755
+        },
+        "Lateral and medial temporal": {
+          "n_stable_weak_regions": 6,
+          "share_of_regions": 0.17142857142857143,
+          "share_of_importance": 0.16275214035086402,
+          "enrichment": 0.9493874853800401
+        },
+        "Insular and opercular": {
+          "n_stable_weak_regions": 4,
+          "share_of_regions": 0.11428571428571428,
+          "share_of_importance": 0.11078164119313763,
+          "enrichment": 0.9693393604399543
+        },
+        "Posterior parietal": {
+          "n_stable_weak_regions": 3,
+          "share_of_regions": 0.08571428571428572,
+          "share_of_importance": 0.09970190443600531,
+          "enrichment": 1.1631888850867287
+        },
+        "Cingulate and medial parietal": {
+          "n_stable_weak_regions": 1,
+          "share_of_regions": 0.02857142857142857,
+          "share_of_importance": 0.017317263988671682,
+          "enrichment": 0.6061042396035089
+        },
+        "Prefrontal": {
+          "n_stable_weak_regions": 6,
+          "share_of_regions": 0.17142857142857143,
+          "share_of_importance": 0.12819857550541686,
+          "enrichment": 0.7478250237815983
+        },
+        "Subcortical and cerebellum": {
+          "n_stable_weak_regions": 2,
+          "share_of_regions": 0.05714285714285714,
+          "share_of_importance": 0.01813111302283283,
+          "enrichment": 0.31729447789957455
+        }
+      },
+      "spearman_importance_vs_individual_accuracy": 0.24621848739495797,
+      "spearman_p": 0.15392465328804497,
+      "top_edges": [
+        {
+          "region_i": "L_FOP3",
+          "region_j": "R_TE2a",
+          "system_i": "Insular and opercular",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.23332573473453522
+        },
+        {
+          "region_i": "L_24dd",
+          "region_j": "R_PGp",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.21893054991960526
+        },
+        {
+          "region_i": "L_PIT",
+          "region_j": "R_PGp",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.21598505601286888
+        },
+        {
+          "region_i": "L_FOP3",
+          "region_j": "R_STSvp",
+          "system_i": "Insular and opercular",
+          "system_j": "Auditory and superior temporal",
+          "edge_effect_abs": 0.21225794777274132
+        },
+        {
+          "region_i": "R_PCV",
+          "region_j": "R_TE2a",
+          "system_i": "Posterior parietal",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.19996286928653717
+        },
+        {
+          "region_i": "L_PIT",
+          "region_j": "R_PIT",
+          "system_i": "Visual",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.19779399782419205
+        },
+        {
+          "region_i": "L_PIT",
+          "region_j": "R_PCV",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.1956539899110794
+        },
+        {
+          "region_i": "L_V4",
+          "region_j": "R_PCV",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.19516068696975708
+        },
+        {
+          "region_i": "R_V3",
+          "region_j": "R_PCV",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.18793412297964096
+        },
+        {
+          "region_i": "L_V4",
+          "region_j": "R_PGp",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.18614713475108147
+        }
+      ],
+      "edge_effect_abs_median": 0.09731145016849041
+    },
+    {
+      "task": "SOCIAL",
+      "display": "Social Cognition",
+      "n_stable_weak_regions": 115,
+      "top_regions": [
+        {
+          "region": "R_SCEF",
+          "system": "Somatomotor and premotor",
+          "hemisphere": "R",
+          "importance": 0.8315063118934631,
+          "signed_coefficient": 0.8315063118934631,
+          "node_effect": 0.0999436154961586,
+          "individual_accuracy": 0.5527955740690231
+        },
+        {
+          "region": "R_IP2",
+          "system": "Posterior parietal",
+          "hemisphere": "R",
+          "importance": 0.8102854043245316,
+          "signed_coefficient": 0.8102854043245316,
+          "node_effect": 0.13647498562932014,
+          "individual_accuracy": 0.5901800394058228
+        },
+        {
+          "region": "R_11l",
+          "system": "Prefrontal",
+          "hemisphere": "R",
+          "importance": 0.7733237594366074,
+          "signed_coefficient": 0.7733237594366074,
+          "node_effect": 0.1278359405696392,
+          "individual_accuracy": 0.5849610567092896
+        },
+        {
+          "region": "R_TE2a",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "R",
+          "importance": 0.7370126843452454,
+          "signed_coefficient": 0.7370126843452454,
+          "node_effect": 0.1292768530547619,
+          "individual_accuracy": 0.5815469026565552
+        },
+        {
+          "region": "L_7m",
+          "system": "Posterior parietal",
+          "hemisphere": "L",
+          "importance": 0.7317840754985809,
+          "signed_coefficient": 0.7317840754985809,
+          "node_effect": 0.11847180314362049,
+          "individual_accuracy": 0.5741040706634521
+        },
+        {
+          "region": "R_5m",
+          "system": "Somatomotor and premotor",
+          "hemisphere": "R",
+          "importance": 0.7081645578145981,
+          "signed_coefficient": -0.7081645578145981,
+          "node_effect": 0.054985567927360535,
+          "individual_accuracy": 0.5351141393184662
+        },
+        {
+          "region": "R_OP1",
+          "system": "Somatomotor and premotor",
+          "hemisphere": "R",
+          "importance": 0.6457256227731705,
+          "signed_coefficient": -0.6457256227731705,
+          "node_effect": 0.048291523940861225,
+          "individual_accuracy": 0.509066678583622
+        },
+        {
+          "region": "R_8Ad",
+          "system": "Prefrontal",
+          "hemisphere": "R",
+          "importance": 0.631794348359108,
+          "signed_coefficient": 0.631794348359108,
+          "node_effect": 0.11093044839799404,
+          "individual_accuracy": 0.5817210972309113
+        },
+        {
+          "region": "R_Ig",
+          "system": "Insular and opercular",
+          "hemisphere": "R",
+          "importance": 0.6219300627708435,
+          "signed_coefficient": 0.6219300627708435,
+          "node_effect": 0.13235576078295708,
+          "individual_accuracy": 0.5817297995090485
+        },
+        {
+          "region": "R_TE1a",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "R",
+          "importance": 0.5901262611150742,
+          "signed_coefficient": 0.5901262611150742,
+          "node_effect": 0.12350289709866047,
+          "individual_accuracy": 0.5673009306192398
+        }
+      ],
+      "systems": {
+        "Visual": {
+          "n_stable_weak_regions": 3,
+          "share_of_regions": 0.02608695652173913,
+          "share_of_importance": 0.01795701756146377,
+          "enrichment": 0.6883523398561112
+        },
+        "Somatomotor and premotor": {
+          "n_stable_weak_regions": 18,
+          "share_of_regions": 0.1565217391304348,
+          "share_of_importance": 0.17158206527445588,
+          "enrichment": 1.096218750364579
+        },
+        "Auditory and superior temporal": {
+          "n_stable_weak_regions": 4,
+          "share_of_regions": 0.034782608695652174,
+          "share_of_importance": 0.0310567612817777,
+          "enrichment": 0.8928818868511089
+        },
+        "Lateral and medial temporal": {
+          "n_stable_weak_regions": 12,
+          "share_of_regions": 0.10434782608695652,
+          "share_of_importance": 0.10659237764142168,
+          "enrichment": 1.0215102857302911
+        },
+        "Insular and opercular": {
+          "n_stable_weak_regions": 18,
+          "share_of_regions": 0.1565217391304348,
+          "share_of_importance": 0.180779500339694,
+          "enrichment": 1.154980141059156
+        },
+        "Posterior parietal": {
+          "n_stable_weak_regions": 8,
+          "share_of_regions": 0.06956521739130435,
+          "share_of_importance": 0.09908442117164395,
+          "enrichment": 1.4243385543423819
+        },
+        "Cingulate and medial parietal": {
+          "n_stable_weak_regions": 14,
+          "share_of_regions": 0.12173913043478261,
+          "share_of_importance": 0.09823424222800468,
+          "enrichment": 0.8069241325871813
+        },
+        "Prefrontal": {
+          "n_stable_weak_regions": 31,
+          "share_of_regions": 0.26956521739130435,
+          "share_of_importance": 0.2549249165391154,
+          "enrichment": 0.9456892065160734
+        },
+        "Subcortical and cerebellum": {
+          "n_stable_weak_regions": 7,
+          "share_of_regions": 0.06086956521739131,
+          "share_of_importance": 0.03978869796242292,
+          "enrichment": 0.6536714665255193
+        }
+      },
+      "spearman_importance_vs_individual_accuracy": 0.33299928982876986,
+      "spearman_p": 0.0002765154220689268,
+      "top_edges": [
+        {
+          "region_i": "L_7m",
+          "region_j": "R_7m",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.3129262924194336
+        },
+        {
+          "region_i": "R_11l",
+          "region_j": "R_IP2",
+          "system_i": "Prefrontal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.3050732985138893
+        },
+        {
+          "region_i": "L_3b",
+          "region_j": "L_1",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Somatomotor and premotor",
+          "edge_effect_abs": 0.2735655605792999
+        },
+        {
+          "region_i": "R_SCEF",
+          "region_j": "R_FOP1",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Insular and opercular",
+          "edge_effect_abs": 0.25020696222782135
+        },
+        {
+          "region_i": "L_7m",
+          "region_j": "R_8Ad",
+          "system_i": "Posterior parietal",
+          "system_j": "Prefrontal",
+          "edge_effect_abs": 0.23233503475785255
+        },
+        {
+          "region_i": "L_7m",
+          "region_j": "R_11l",
+          "system_i": "Posterior parietal",
+          "system_j": "Prefrontal",
+          "edge_effect_abs": 0.2304326891899109
+        },
+        {
+          "region_i": "L_10v",
+          "region_j": "R_IP2",
+          "system_i": "Prefrontal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.2288518138229847
+        },
+        {
+          "region_i": "L_8Ad",
+          "region_j": "R_8Ad",
+          "system_i": "Prefrontal",
+          "system_j": "Prefrontal",
+          "edge_effect_abs": 0.2284529246389866
+        },
+        {
+          "region_i": "L_Pir",
+          "region_j": "R_3a",
+          "system_i": "Insular and opercular",
+          "system_j": "Somatomotor and premotor",
+          "edge_effect_abs": 0.22710351645946503
+        },
+        {
+          "region_i": "L_RI",
+          "region_j": "R_PoI1",
+          "system_i": "Auditory and superior temporal",
+          "system_j": "Insular and opercular",
+          "edge_effect_abs": 0.22595501691102982
+        }
+      ],
+      "edge_effect_abs_median": 0.07078941352665424
+    },
+    {
+      "task": "RELATIONAL",
+      "display": "Relational Processing",
+      "n_stable_weak_regions": 201,
+      "top_regions": [
+        {
+          "region": "L_IP1",
+          "system": "Posterior parietal",
+          "hemisphere": "L",
+          "importance": 1.1132692247629166,
+          "signed_coefficient": 1.1132692247629166,
+          "node_effect": 0.11935772933065891,
+          "individual_accuracy": 0.5849465429782867
+        },
+        {
+          "region": "L_LIPd",
+          "system": "Posterior parietal",
+          "hemisphere": "L",
+          "importance": 0.6727488338947296,
+          "signed_coefficient": 0.6727488338947296,
+          "node_effect": 0.06446387805044651,
+          "individual_accuracy": 0.5377279967069626
+        },
+        {
+          "region": "L_TGd",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "L",
+          "importance": 0.6179740242660046,
+          "signed_coefficient": 0.6179740242660046,
+          "node_effect": 0.08210065960884094,
+          "individual_accuracy": 0.563456118106842
+        },
+        {
+          "region": "L_p9-46v",
+          "system": "Prefrontal",
+          "hemisphere": "L",
+          "importance": 0.6162882670760155,
+          "signed_coefficient": -0.6162882670760155,
+          "node_effect": 0.06402345094829798,
+          "individual_accuracy": 0.5447818040847778
+        },
+        {
+          "region": "R_5m",
+          "system": "Somatomotor and premotor",
+          "hemisphere": "R",
+          "importance": 0.5569779649376869,
+          "signed_coefficient": 0.5569779649376869,
+          "node_effect": 0.13788013719022274,
+          "individual_accuracy": 0.5913703441619873
+        },
+        {
+          "region": "R_7Am",
+          "system": "Posterior parietal",
+          "hemisphere": "R",
+          "importance": 0.5505553632974625,
+          "signed_coefficient": -0.5505553632974625,
+          "node_effect": 0.11044178903102875,
+          "individual_accuracy": 0.5793143510818481
+        },
+        {
+          "region": "R_IFSp",
+          "system": "Prefrontal",
+          "hemisphere": "R",
+          "importance": 0.5470751151442528,
+          "signed_coefficient": 0.5470751151442528,
+          "node_effect": 0.08083617780357599,
+          "individual_accuracy": 0.5421863496303558
+        },
+        {
+          "region": "L_PoI2",
+          "system": "Insular and opercular",
+          "hemisphere": "L",
+          "importance": 0.5076209306716919,
+          "signed_coefficient": 0.5076209306716919,
+          "node_effect": 0.12436823360621929,
+          "individual_accuracy": 0.5789030492305756
+        },
+        {
+          "region": "L_TPOJ3",
+          "system": "Auditory and superior temporal",
+          "hemisphere": "L",
+          "importance": 0.5045690909028053,
+          "signed_coefficient": -0.5045690909028053,
+          "node_effect": 0.04646653402596712,
+          "individual_accuracy": 0.5036377087235451
+        },
+        {
+          "region": "R_TA2",
+          "system": "Auditory and superior temporal",
+          "hemisphere": "R",
+          "importance": 0.5026711970567703,
+          "signed_coefficient": -0.5026711970567703,
+          "node_effect": 0.04486681427806616,
+          "individual_accuracy": 0.48815495520830154
+        }
+      ],
+      "systems": {
+        "Visual": {
+          "n_stable_weak_regions": 2,
+          "share_of_regions": 0.009950248756218905,
+          "share_of_importance": 0.0084217554090588,
+          "enrichment": 0.8463864186104094
+        },
+        "Somatomotor and premotor": {
+          "n_stable_weak_regions": 16,
+          "share_of_regions": 0.07960199004975124,
+          "share_of_importance": 0.08561946318734881,
+          "enrichment": 1.0755945062910695
+        },
+        "Auditory and superior temporal": {
+          "n_stable_weak_regions": 28,
+          "share_of_regions": 0.13930348258706468,
+          "share_of_importance": 0.126078466909827,
+          "enrichment": 0.9050632803169723
+        },
+        "Lateral and medial temporal": {
+          "n_stable_weak_regions": 25,
+          "share_of_regions": 0.12437810945273632,
+          "share_of_importance": 0.11736019947076459,
+          "enrichment": 0.9435760037449473
+        },
+        "Insular and opercular": {
+          "n_stable_weak_regions": 21,
+          "share_of_regions": 0.1044776119402985,
+          "share_of_importance": 0.08626835576070345,
+          "enrichment": 0.8257114051381617
+        },
+        "Posterior parietal": {
+          "n_stable_weak_regions": 29,
+          "share_of_regions": 0.14427860696517414,
+          "share_of_importance": 0.1893541369194448,
+          "enrichment": 1.3124200524416691
+        },
+        "Cingulate and medial parietal": {
+          "n_stable_weak_regions": 28,
+          "share_of_regions": 0.13930348258706468,
+          "share_of_importance": 0.14385115413846794,
+          "enrichment": 1.0326457850654305
+        },
+        "Prefrontal": {
+          "n_stable_weak_regions": 40,
+          "share_of_regions": 0.19900497512437812,
+          "share_of_importance": 0.18547074408332667,
+          "enrichment": 0.9319904890187165
+        },
+        "Subcortical and cerebellum": {
+          "n_stable_weak_regions": 12,
+          "share_of_regions": 0.05970149253731343,
+          "share_of_importance": 0.05757572412105795,
+          "enrichment": 0.9643933790277207
+        }
+      },
+      "spearman_importance_vs_individual_accuracy": 0.12239249298064135,
+      "spearman_p": 0.08346881708937916,
+      "top_edges": [
+        {
+          "region_i": "L_MIP",
+          "region_j": "L_IP1",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.2898302301764488
+        },
+        {
+          "region_i": "L_MIP",
+          "region_j": "L_IP2",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.2668943479657173
+        },
+        {
+          "region_i": "L_LIPd",
+          "region_j": "L_IP2",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.25702352821826935
+        },
+        {
+          "region_i": "L_8BL",
+          "region_j": "R_A4",
+          "system_i": "Prefrontal",
+          "system_j": "Auditory and superior temporal",
+          "edge_effect_abs": 0.2441176325082779
+        },
+        {
+          "region_i": "L_LIPd",
+          "region_j": "L_IP1",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.24063092842698097
+        },
+        {
+          "region_i": "L_8BL",
+          "region_j": "L_10v",
+          "system_i": "Prefrontal",
+          "system_j": "Prefrontal",
+          "edge_effect_abs": 0.23960429057478905
+        },
+        {
+          "region_i": "L_IP1",
+          "region_j": "R_IP0",
+          "system_i": "Posterior parietal",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.23192480951547623
+        },
+        {
+          "region_i": "R_43",
+          "region_j": "R_A4",
+          "system_i": "Somatomotor and premotor",
+          "system_j": "Auditory and superior temporal",
+          "edge_effect_abs": 0.22980808466672897
+        },
+        {
+          "region_i": "L_8BL",
+          "region_j": "R_s32",
+          "system_i": "Prefrontal",
+          "system_j": "Cingulate and medial parietal",
+          "edge_effect_abs": 0.22979794070124626
+        },
+        {
+          "region_i": "L_8BL",
+          "region_j": "L_TGd",
+          "system_i": "Prefrontal",
+          "system_j": "Lateral and medial temporal",
+          "edge_effect_abs": 0.22662783041596413
+        }
+      ],
+      "edge_effect_abs_median": 0.07046259986236691
+    },
+    {
+      "task": "EMOTION",
+      "display": "Emotion Processing",
+      "n_stable_weak_regions": 253,
+      "top_regions": [
+        {
+          "region": "L_LO2",
+          "system": "Visual",
+          "hemisphere": "L",
+          "importance": 1.2641274482011795,
+          "signed_coefficient": 1.2641274482011795,
+          "node_effect": 0.12113765440881252,
+          "individual_accuracy": 0.5710837692022324
+        },
+        {
+          "region": "L_VMV1",
+          "system": "Visual",
+          "hemisphere": "L",
+          "importance": 1.1295131891965866,
+          "signed_coefficient": 1.1295131891965866,
+          "node_effect": 0.10197829268872738,
+          "individual_accuracy": 0.576275646686554
+        },
+        {
+          "region": "L_V4t",
+          "system": "Visual",
+          "hemisphere": "L",
+          "importance": 0.9899694174528122,
+          "signed_coefficient": 0.9899694174528122,
+          "node_effect": 0.13071829080581665,
+          "individual_accuracy": 0.5982073694467545
+        },
+        {
+          "region": "L_V4",
+          "system": "Visual",
+          "hemisphere": "L",
+          "importance": 0.9424809664487839,
+          "signed_coefficient": 0.9424809664487839,
+          "node_effect": 0.06267755478620529,
+          "individual_accuracy": 0.5439640581607819
+        },
+        {
+          "region": "R_A4",
+          "system": "Auditory and superior temporal",
+          "hemisphere": "R",
+          "importance": 0.9306386560201645,
+          "signed_coefficient": 0.9306386560201645,
+          "node_effect": 0.05349873751401901,
+          "individual_accuracy": 0.5477856248617172
+        },
+        {
+          "region": "R_POS2",
+          "system": "Posterior parietal",
+          "hemisphere": "R",
+          "importance": 0.9244774580001831,
+          "signed_coefficient": 0.9244774580001831,
+          "node_effect": 0.0786533197388053,
+          "individual_accuracy": 0.5622764676809311
+        },
+        {
+          "region": "L_V6A",
+          "system": "Visual",
+          "hemisphere": "L",
+          "importance": 0.8720798268914223,
+          "signed_coefficient": 0.8720798268914223,
+          "node_effect": 0.05646168813109398,
+          "individual_accuracy": 0.5532194674015045
+        },
+        {
+          "region": "R_Pir",
+          "system": "Insular and opercular",
+          "hemisphere": "R",
+          "importance": 0.8513523042201996,
+          "signed_coefficient": 0.8513523042201996,
+          "node_effect": 0.03809506120160222,
+          "individual_accuracy": 0.506420910358429
+        },
+        {
+          "region": "L_TE1p",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "L",
+          "importance": 0.8110635727643967,
+          "signed_coefficient": 0.8110635727643967,
+          "node_effect": 0.0832727700471878,
+          "individual_accuracy": 0.5658609420061111
+        },
+        {
+          "region": "L_PHA3",
+          "system": "Lateral and medial temporal",
+          "hemisphere": "L",
+          "importance": 0.778996966779232,
+          "signed_coefficient": 0.778996966779232,
+          "node_effect": 0.03469499479979277,
+          "individual_accuracy": 0.49577488750219345
+        }
+      ],
+      "systems": {
+        "Visual": {
+          "n_stable_weak_regions": 21,
+          "share_of_regions": 0.08300395256916997,
+          "share_of_importance": 0.1155247765743139,
+          "enrichment": 1.3917984987286387
+        },
+        "Somatomotor and premotor": {
+          "n_stable_weak_regions": 31,
+          "share_of_regions": 0.1225296442687747,
+          "share_of_importance": 0.1170493557981378,
+          "enrichment": 0.9552737747396407
+        },
+        "Auditory and superior temporal": {
+          "n_stable_weak_regions": 30,
+          "share_of_regions": 0.11857707509881422,
+          "share_of_importance": 0.10769335715811887,
+          "enrichment": 0.9082139787001359
+        },
+        "Lateral and medial temporal": {
+          "n_stable_weak_regions": 27,
+          "share_of_regions": 0.1067193675889328,
+          "share_of_importance": 0.11002808642863111,
+          "enrichment": 1.0310039209793953
+        },
+        "Insular and opercular": {
+          "n_stable_weak_regions": 23,
+          "share_of_regions": 0.09090909090909091,
+          "share_of_importance": 0.090213186474903,
+          "enrichment": 0.992345051223933
+        },
+        "Posterior parietal": {
+          "n_stable_weak_regions": 19,
+          "share_of_regions": 0.07509881422924901,
+          "share_of_importance": 0.08401544839032814,
+          "enrichment": 1.1187320233027904
+        },
+        "Cingulate and medial parietal": {
+          "n_stable_weak_regions": 32,
+          "share_of_regions": 0.12648221343873517,
+          "share_of_importance": 0.10924340643247739,
+          "enrichment": 0.8637056821067745
+        },
+        "Prefrontal": {
+          "n_stable_weak_regions": 53,
+          "share_of_regions": 0.20948616600790515,
+          "share_of_importance": 0.20968804858914927,
+          "enrichment": 1.0009637036425427
+        },
+        "Subcortical and cerebellum": {
+          "n_stable_weak_regions": 17,
+          "share_of_regions": 0.06719367588932806,
+          "share_of_importance": 0.05654433415394053,
+          "enrichment": 0.841512737702762
+        }
+      },
+      "spearman_importance_vs_individual_accuracy": 0.20304716166541073,
+      "spearman_p": 0.0011639697443773368,
+      "top_edges": [
+        {
+          "region_i": "R_PCV",
+          "region_j": "R_46",
+          "system_i": "Posterior parietal",
+          "system_j": "Prefrontal",
+          "edge_effect_abs": 0.25001559779047966
+        },
+        {
+          "region_i": "R_V8",
+          "region_j": "R_IP1",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.24253114312887192
+        },
+        {
+          "region_i": "L_d23ab",
+          "region_j": "L_V4t",
+          "system_i": "Cingulate and medial parietal",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.2413598597049713
+        },
+        {
+          "region_i": "R_V8",
+          "region_j": "amygdala_left",
+          "system_i": "Visual",
+          "system_j": "Subcortical and cerebellum",
+          "edge_effect_abs": 0.2298196218907833
+        },
+        {
+          "region_i": "L_a24",
+          "region_j": "L_V4t",
+          "system_i": "Cingulate and medial parietal",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.22696524113416672
+        },
+        {
+          "region_i": "L_9p",
+          "region_j": "L_V4t",
+          "system_i": "Prefrontal",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.22468775883316994
+        },
+        {
+          "region_i": "L_V4t",
+          "region_j": "R_IFJp",
+          "system_i": "Visual",
+          "system_j": "Prefrontal",
+          "edge_effect_abs": 0.2236849181354046
+        },
+        {
+          "region_i": "L_a24",
+          "region_j": "amygdala_left",
+          "system_i": "Cingulate and medial parietal",
+          "system_j": "Subcortical and cerebellum",
+          "edge_effect_abs": 0.22058642655611038
+        },
+        {
+          "region_i": "L_V4",
+          "region_j": "L_LO2",
+          "system_i": "Visual",
+          "system_j": "Visual",
+          "edge_effect_abs": 0.2188776694238186
+        },
+        {
+          "region_i": "L_V4t",
+          "region_j": "R_IP1",
+          "system_i": "Visual",
+          "system_j": "Posterior parietal",
+          "edge_effect_abs": 0.21835392713546753
+        }
+      ],
+      "edge_effect_abs_median": 0.04711018782109022
+    }
+  ]
+}

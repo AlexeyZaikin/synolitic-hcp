@@ -1,0 +1,250 @@
+{
+  "n_subjects_per_task": 60,
+  "encoding": "LR",
+  "pooled": {
+    "gs_corr_median": 0.15591167046265256,
+    "edge_corr_mean": 0.03280570873857645,
+    "edge_frac_negative": 0.4444000369619166,
+    "region_sd_median": 0.9923848823539679,
+    "region_mean_median": 0.009843540296084963,
+    "pc1_variance_share_median": 0.14969542285484735,
+    "pc1_global_signal_corr_median": 0.689541344562423,
+    "pc1_same_sign_loading_frac_median": 0.6029023746701847,
+    "posthoc_gsr_gs_corr_abs_median": 3.48391477537553e-17,
+    "posthoc_gsr_edge_corr_mean": -0.0022482313232473758,
+    "posthoc_gsr_edge_frac_negative": 0.5247666446623602
+  },
+  "tasks": [
+    {
+      "task": "WM",
+      "display": "Working Memory",
+      "n_subjects_analysed": 60,
+      "timepoints_median": 296.0,
+      "timepoints_range": [
+        296,
+        297
+      ],
+      "region_mean_median": 0.009843540296084963,
+      "region_mean_abs_p95": 0.16869123023800942,
+      "region_sd_median": 0.9907675913347405,
+      "region_sd_iqr": [
+        0.968098612321466,
+        1.0100924487395169
+      ],
+      "gs_corr_median": 0.15591167046265256,
+      "gs_corr_p5": -0.1398208235387168,
+      "gs_corr_p95": 0.5723886954596626,
+      "gs_corr_frac_above_0p3": 0.2816622691292876,
+      "gs_sd_over_region_sd_median": 0.1758244167705936,
+      "edge_corr_mean": 0.03129008549973935,
+      "edge_corr_mean_sd": 0.010660379545945477,
+      "edge_frac_negative": 0.4395126877096974,
+      "pc1_variance_share_median": 0.12128424603087037,
+      "pc1_same_sign_loading_frac_median": 0.6029023746701847,
+      "pc1_global_signal_corr_median": 0.689541344562423,
+      "after_posthoc_gsr": {
+        "gs_corr_abs_median": 3.737308108735217e-17,
+        "edge_corr_mean": -0.0023956539889620323,
+        "edge_frac_negative": 0.5312706788960088
+      }
+    },
+    {
+      "task": "GAMBLING",
+      "display": "Gambling",
+      "n_subjects_analysed": 60,
+      "timepoints_median": 148.0,
+      "timepoints_range": [
+        147,
+        148
+      ],
+      "region_mean_median": 0.012408571044058615,
+      "region_mean_abs_p95": 0.19466199657320898,
+      "region_sd_median": 0.9999579669317638,
+      "region_sd_iqr": [
+        0.9661425307511289,
+        1.0319529492656874
+      ],
+      "gs_corr_median": 0.1484844206325393,
+      "gs_corr_p5": -0.19749024556090253,
+      "gs_corr_p95": 0.5851409549662406,
+      "gs_corr_frac_above_0p3": 0.2793755496921724,
+      "gs_sd_over_region_sd_median": 0.1676292768053558,
+      "edge_corr_mean": 0.02638885942863294,
+      "edge_corr_mean_sd": 0.00849389881770425,
+      "edge_frac_negative": 0.45347126244223873,
+      "pc1_variance_share_median": 0.14978445577837615,
+      "pc1_same_sign_loading_frac_median": 0.5778364116094987,
+      "pc1_global_signal_corr_median": 0.6264827008124385,
+      "after_posthoc_gsr": {
+        "gs_corr_abs_median": 3.261764669765776e-17,
+        "edge_corr_mean": -0.0024320703357958323,
+        "edge_frac_negative": 0.5198670966480994
+      }
+    },
+    {
+      "task": "MOTOR",
+      "display": "Motor Activity",
+      "n_subjects_analysed": 60,
+      "timepoints_median": 128.0,
+      "timepoints_range": [
+        128,
+        128
+      ],
+      "region_mean_median": 0.019431644628639333,
+      "region_mean_abs_p95": 0.25376808247674487,
+      "region_sd_median": 0.9861274965329392,
+      "region_sd_iqr": [
+        0.94342254934041,
+        1.026595467940972
+      ],
+      "gs_corr_median": 0.17983373310637266,
+      "gs_corr_p5": -0.18425753591848648,
+      "gs_corr_p95": 0.5509146641051811,
+      "gs_corr_frac_above_0p3": 0.3085312225153914,
+      "gs_sd_over_region_sd_median": 0.17676891459981245,
+      "edge_corr_mean": 0.03234250516310326,
+      "edge_corr_mean_sd": 0.01304549355352201,
+      "edge_frac_negative": 0.4351251553098519,
+      "pc1_variance_share_median": 0.1258341347449641,
+      "pc1_same_sign_loading_frac_median": 0.6464379947229552,
+      "pc1_global_signal_corr_median": 0.6968089175537515,
+      "after_posthoc_gsr": {
+        "gs_corr_abs_median": 3.2603821875890283e-17,
+        "edge_corr_mean": -0.0024671105626382877,
+        "edge_frac_negative": 0.5219551125443825
+      }
+    },
+    {
+      "task": "LANGUAGE",
+      "display": "Language Processing",
+      "n_subjects_analysed": 60,
+      "timepoints_median": 292.0,
+      "timepoints_range": [
+        275,
+        301
+      ],
+      "region_mean_median": -7.670228047453617e-05,
+      "region_mean_abs_p95": 0.043566977764124354,
+      "region_sd_median": 1.001236216987198,
+      "region_sd_iqr": [
+        0.9923902745455424,
+        1.0090925791229703
+      ],
+      "gs_corr_median": 0.1539215050810459,
+      "gs_corr_p5": -0.1740696863435883,
+      "gs_corr_p95": 0.4988638419536307,
+      "gs_corr_frac_above_0p3": 0.24028144239226035,
+      "gs_sd_over_region_sd_median": 0.15958151103811485,
+      "edge_corr_mean": 0.023864430859459128,
+      "edge_corr_mean_sd": 0.008307411295000882,
+      "edge_frac_negative": 0.45437287394191533,
+      "pc1_variance_share_median": 0.14969542285484735,
+      "pc1_same_sign_loading_frac_median": 0.5593667546174143,
+      "pc1_global_signal_corr_median": 0.4716426410661779,
+      "after_posthoc_gsr": {
+        "gs_corr_abs_median": 3.634217520395609e-17,
+        "edge_corr_mean": -0.002537826877935075,
+        "edge_frac_negative": 0.5274043361114601
+      }
+    },
+    {
+      "task": "SOCIAL",
+      "display": "Social Cognition",
+      "n_subjects_analysed": 60,
+      "timepoints_median": 151.0,
+      "timepoints_range": [
+        151,
+        151
+      ],
+      "region_mean_median": -0.012991844664870559,
+      "region_mean_abs_p95": 0.23680505710160535,
+      "region_sd_median": 0.9923848823539679,
+      "region_sd_iqr": [
+        0.9549299261819708,
+        1.0273101702049243
+      ],
+      "gs_corr_median": 0.18844896712706605,
+      "gs_corr_p5": -0.2688199199152916,
+      "gs_corr_p95": 0.7613516470770035,
+      "gs_corr_frac_above_0p3": 0.38847845206684256,
+      "gs_sd_over_region_sd_median": 0.22519566199993973,
+      "edge_corr_mean": 0.049979563610453,
+      "edge_corr_mean_sd": 0.016639621324376037,
+      "edge_frac_negative": 0.43831092683335426,
+      "pc1_variance_share_median": 0.20034692740719706,
+      "pc1_same_sign_loading_frac_median": 0.6319261213720317,
+      "pc1_global_signal_corr_median": 0.8473606638916275,
+      "after_posthoc_gsr": {
+        "gs_corr_abs_median": 4.449774962514339e-17,
+        "edge_corr_mean": -0.0015144538132270055,
+        "edge_frac_negative": 0.5266432596687654
+      }
+    },
+    {
+      "task": "RELATIONAL",
+      "display": "Relational Processing",
+      "n_subjects_analysed": 60,
+      "timepoints_median": 126.0,
+      "timepoints_range": [
+        126,
+        128
+      ],
+      "region_mean_median": 0.02150630733896313,
+      "region_mean_abs_p95": 0.21343021091897899,
+      "region_sd_median": 0.990135163241278,
+      "region_sd_iqr": [
+        0.9503682212844916,
+        1.0264566417970677
+      ],
+      "gs_corr_median": 0.17603279015638085,
+      "gs_corr_p5": -0.23831331545106763,
+      "gs_corr_p95": 0.6893307670294554,
+      "gs_corr_frac_above_0p3": 0.3548812664907652,
+      "gs_sd_over_region_sd_median": 0.19051870131799292,
+      "edge_corr_mean": 0.039729729718814256,
+      "edge_corr_mean_sd": 0.020697379407338623,
+      "edge_frac_negative": 0.44239575044324386,
+      "pc1_variance_share_median": 0.1649711091371817,
+      "pc1_same_sign_loading_frac_median": 0.6029023746701847,
+      "pc1_global_signal_corr_median": 0.7531711628756863,
+      "after_posthoc_gsr": {
+        "gs_corr_abs_median": 3.48391477537553e-17,
+        "edge_corr_mean": -0.0018780721874186827,
+        "edge_frac_negative": 0.5220470187488658
+      }
+    },
+    {
+      "task": "EMOTION",
+      "display": "Emotion Processing",
+      "n_subjects_analysed": 60,
+      "timepoints_median": 141.0,
+      "timepoints_range": [
+        140,
+        141
+      ],
+      "region_mean_median": 0.008914917542598199,
+      "region_mean_abs_p95": 0.12172431571974553,
+      "region_sd_median": 0.9937702722689734,
+      "region_sd_iqr": [
+        0.9693171574464777,
+        1.0145228238968822
+      ],
+      "gs_corr_median": 0.15346880103482213,
+      "gs_corr_p5": -0.15685637767995486,
+      "gs_corr_p95": 0.5327684854551268,
+      "gs_corr_frac_above_0p3": 0.25030782761653475,
+      "gs_sd_over_region_sd_median": 0.16155789625454994,
+      "edge_corr_mean": 0.026044786889833214,
+      "edge_corr_mean_sd": 0.00808783850809332,
+      "edge_frac_negative": 0.4476116020531149,
+      "pc1_variance_share_median": 0.11380039764144839,
+      "pc1_same_sign_loading_frac_median": 0.6358839050131926,
+      "pc1_global_signal_corr_median": 0.5857972507459801,
+      "after_posthoc_gsr": {
+        "gs_corr_abs_median": 3.017897406188456e-17,
+        "edge_corr_mean": -0.0025124314967547114,
+        "edge_frac_negative": 0.5241790100189397
+      }
+    }
+  ]
+}
