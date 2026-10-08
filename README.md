@@ -2,7 +2,7 @@
 
 Code accompanying the manuscript
 
-> A. Zaikin, D. Vlasenko, T. Tyukina, J. G. Oganezova, O. Blyuss, D. Zakharov.
+> A. Zaikin, D. Vlasenko, T. Tyukina, O. Blyuss, D. Zakharov.
 > *Supervised pairwise graphs recover cognitive-state information from
 > individually uninformative brain regions.*
 
